@@ -12,7 +12,7 @@ export const swaggerOptions = {
           url: 'http://localhost:100/api/v1',
         },
         {
-          url: '.../api/v1',
+          url: 'https://ajemel.onrender.com/api/v1',
         },
       ],
       
