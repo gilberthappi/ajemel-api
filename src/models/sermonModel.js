@@ -8,6 +8,7 @@ const sermonSchema = mongoose.Schema({
     mainGuest: String,
     location: String,
     photo: [String],
+    videoLink:[String],
     documents:[String],
     createdBy: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
     hostedBy: {type: mongoose.Schema.Types.ObjectId, ref: 'User'},
@@ -24,5 +25,4 @@ const sermonSchema = mongoose.Schema({
       },
 });
 export const Sermon =mongoose.model("Sermon", sermonSchema);
-
 
